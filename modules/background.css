@@ -1,0 +1,8 @@
+#black-bckgd-1 {
+  background-color:black;
+  border-radius:;
+}
+#background-img {
+  background-image:url("../IMG/BackGround_IMG/BCKGRND.jpg");
+  background-size:cover;
+}

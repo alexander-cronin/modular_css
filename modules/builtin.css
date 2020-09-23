@@ -1,0 +1,597 @@
+/*==##################################################################==*/
+/* A */
+a:link {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+a:visited {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+a:link:active	{
+  color: green;
+  cursor: pointer;
+}
+a:visited:active	{
+  color: green;
+}
+abbr {
+  color: black;
+  display: ;
+  text-decoration: underline;
+  font-weight: bold;
+}
+address	{
+  display: block;
+  font-style: italic;
+}
+area {
+  display: none;
+}
+article	{
+  display: block;
+}
+aside	{
+  display: block;
+}
+audio	{
+
+}
+/*==##################################################################==*/
+/* B */
+b	{
+  font-weight: bold;
+}
+base {
+
+}
+bdi	{
+
+}
+bdo	{
+  unicode-bidi: bidi-override;
+}
+blockquote {
+  display: block;
+  padding:0.25rem;
+  text-indent: 1.5rem;
+  text-align: justify;
+  margin: auto;
+}
+body {
+  display: block;
+  margin: 5rem;
+  padding: 1.5rem;
+  font-family: var(--serif), var(--sans-serif);
+  font-size: 1.5rem;
+  background-color: ;
+  text-align: center;
+}
+body:focus {
+  outline: none;
+}
+br {
+
+}
+button {
+  font-weight: bold;
+  box-shadow: var(--box_shadow_1);
+}
+/*==##################################################################==*/
+/* C */
+canvas {
+  background-color: lightgoldenrodyellow;
+}
+caption	{
+  display: table-caption;
+}
+cite {
+  font-style: italic;
+  font-weight: bold;
+}
+code, pre {
+  display: inline-block;
+  font-family: monospace;
+  background-color: gainsboro;
+  padding: 0.5rem;
+  display: ;
+  width: ;
+  margin: 0.25rem 0rem 0.25rem 0rem;
+  border: var(--insetborder);
+}
+col	{
+  display: table-column;
+}
+colgroup {
+  display: table-column-group;
+}
+/*==##################################################################==*/
+/* D */
+datalist {
+  display: none;
+}
+dd {
+  display: block;
+  margin-left: 1rem;
+}
+del	{
+  text-decoration: line-through;
+}
+details	{
+  display: block;
+}
+dfn	{
+  font-style: italic;
+}
+dialog {
+  background-color: var(--blacktransparent7);
+  font-weight: bold;
+  color: white;
+}
+div	{
+  display: block;
+}
+dl {
+  display: block;
+  margin: 1, 0, 1, 0;
+}
+dt {
+  display: block;
+}
+/*==##################################################################==*/
+/* E */
+em {
+  font-style: italic;
+  font-weight: bold;
+}
+embed:focus	{
+  outline: none;
+}
+/*==##################################################################==*/
+/* F */
+fieldset {
+  display: block;
+  margin: 0;
+  padding: 0.65rem;
+  border: var(--doubleborder);
+  background-color: ;
+  color: ;
+}
+fieldset h1::first-letter, fieldset h2::first-letter, fieldset h3::first-letter, fieldset h4::first-letter, fieldset h5::first-letter, fieldset h6::first-letter, fieldset p::first-letter {
+  font-size: 120%;
+  font-weight: bold;
+}
+figcaption {
+  display: block;
+  font-weight:bold;
+  padding: 0.25rem;
+  text-align: center;
+  margin: 0 0 0.5rem 0;
+}
+figure {
+  display: block;
+  border: var(--doubleborder);
+  margin: 0;
+  padding: 0.65rem;
+}
+figure img {
+  display: block;
+  margin: auto;
+  width: 50%;
+  border: var(--doubleborder);
+}
+footer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+form {
+  display: block;
+  margin: 1rem;
+  border: var(--doubleborder);
+  background-color: var(--gainsboro);
+  text-align: justify;
+}
+/*==##################################################################==*/
+/* G */
+
+/*==##################################################################==*/
+/* H */
+h1 {
+  display: block;
+  font-size: 3.5rem;
+  margin: auto auto auto auto;
+  font-weight: bold;
+}
+h2 {
+  display: block;
+  font-size: 3rem;
+  margin: auto auto auto auto;
+  font-weight: bold;
+}
+h3 {
+  display: block;
+  font-size: 2.5rem;
+  margin: auto auto auto auto;
+  font-weight: bold;
+}
+h4 {
+  display: block;
+  font-size: 2.25rem;
+  margin: auto auto auto auto;
+  font-weight: bold;
+}
+h5 {
+  display: block;
+  font-size: 2rem;
+  margin: auto auto auto auto;
+  font-weight: bold;
+}
+h6 {
+  display: block;
+  font-size: 1.75rem;
+  margin: auto auto auto auto;
+  font-weight: bold;
+}
+head {
+  display: none;
+}
+header {
+  display: block;
+}
+hr {
+  display: block;
+  margin: var(--margin2);
+}
+hr.dashedbreak {
+  display: block;
+  border-top: 0.15rem dashed var(--black);
+}
+hr.dottedbreak {
+  display: block;
+  border-top: 0.15rem dotted var(--black);
+}
+hr.doublebreak {
+  display: block;
+  border: 0.15rem double var(--black);
+  height: .25rem;
+}
+hr.insetbreak {
+  display: block;
+  border: var(--insetborder);
+}
+hr.solidbreak {
+  display: block;
+  border: var(--solidborder);
+}
+html {
+  display: block;
+}
+html:focus {
+  outline: none;
+}
+/*==##################################################################==*/
+/* I */
+i {
+  font-style: italic;
+}
+iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.iframe_container {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+iframe:focus {
+  outline: none;
+}
+iframe[seamless] {
+  display: block;
+}
+img {
+  display: inline-block;
+  width: 100%;
+  height:auto;
+}
+input {
+
+}
+ins {
+  text-decoration: underline;
+  color: var(--red);
+}
+
+/*==##################################################################==*/
+/* J */
+
+/*==##################################################################==*/
+/* K */
+kbd	{
+  display: inline;
+  line-height: 2.25rem;
+  font-family: var(--serif);
+  font-size: 1.5rem;
+  padding: 0.5rem 0.65rem;
+  background-color: var(--blacktransparent1);
+  color: var(--black);
+  font-weight: bold;
+  border-radius: 0.15rem;
+  border: 0.1rem solid var(--black);
+  box-shadow: 0.1rem 0.1rem var(--blacktransparent4), 0rem 0.08rem var(--blacktransparent4) inset;
+  white-space: nowrap;
+}
+/*==##################################################################==*/
+/* L */
+label	{
+  cursor: default;
+  font-family: var(--serif), var(--sans-serif);
+  font-weight: normal;
+  font-size: 1.5rem;
+}
+legend {
+  display: block;
+  text-align: justify;
+  padding: 0.1rem 0.1rem 0.1rem 0.1rem;
+  border: 0.15rem solid red;
+}
+li {
+  display: list-item;
+  list-style-type: circle;
+  text-align: justify;
+}
+link {
+  display: none;
+}
+/*==##################################################################==*/
+/* M */
+main {
+  padding: 0.65rem 0.65rem 0.65rem 0.65rem;
+  text-align: justify;
+}
+map {
+  display: inline;
+}
+mark {
+  background-color: var(--goldenyellow);
+  color: black;
+}
+meta {
+
+}
+meter {
+  color: red;
+}
+/*==##################################################################==*/
+/* N */
+nav	{
+  position: fixed;
+  top:0;
+  left:0;
+  display: block;
+  padding: 1.25rem;
+  background-color: var(--blacktransparent8);
+  width: 100%;
+  height: auto;
+  z-index: 1000;
+
+
+}
+nav a{
+  margin:1rem;
+  color: var(--yellow);
+  background-color: red;
+}
+nav a:visited {
+  margin:1rem;
+  color: var(--yellow);
+  background-color: red;
+}
+/*==##################################################################==*/
+/* O */
+object:focus {
+  outline: none;
+}
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+optgroup {
+
+}
+option {
+
+}
+output {
+  display: inline;
+}
+/*==##################################################################==*/
+/* P */
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  text-indent: 1.5rem;
+
+}
+param {
+  display: none;
+}
+picture {
+
+}
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+}
+progress {
+
+}
+/*==##################################################################==*/
+/* Q */
+q {
+  display: inline;
+}
+q::before {
+  content: open-quote;
+}
+q::after {
+  content: close-quote;
+}
+/*==##################################################################==*/
+/* R */
+rp {
+
+}
+rt {
+  line-height: normal;
+}
+ruby {
+
+}
+/*==##################################################################==*/
+/* S */
+s {
+  text-decoration: line-through;
+}
+samp {
+  font-family: monospace;
+}
+script {
+  display: none;
+}
+section {
+  display: block;
+}
+select {
+
+}
+small {
+  font-size: smaller;
+}
+source {
+
+}
+span {
+
+}
+strike {
+  text-decoration: line-through;
+}
+strong {
+  font-weight: bold;
+  style	display: none;
+  sub	vertical-align: sub;
+  font-size: smaller;
+}
+summary {
+  display: block;
+
+}
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+/*==##################################################################==*/
+/* T */
+table	{
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border-color: gray;
+}
+table, th, td {
+  border: 1px solid black;
+}
+tbody	{
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+td	{
+  display: table-cell;
+  vertical-align: inherit;
+}
+template {
+
+}
+textarea {
+
+}
+tfoot	{
+  display: table-footer-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+th {
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+thead	{
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+time {
+
+}
+title	{
+  display: none;
+}
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+track	{
+
+}
+/*==##################################################################==*/
+/* U */
+u	{
+  text-decoration: underline;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+/*==##################################################################==*/
+/* V */
+var {
+  font-style: italic;
+}
+video	{
+
+}
+
+/* W */
+
+/* X */
+
+/* Y */
+
+/* Z */
