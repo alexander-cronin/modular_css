@@ -1,0 +1,52 @@
+nav {
+  background-color: var(--blacktransparent8);
+  color: white;
+  display: flex;
+  z-index: 1000;
+}
+.top_nav {
+  background-color: var(--blacktransparent8);
+  color: green;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: ;
+  margin: auto;
+}
+.nav_logo_container {
+  display: inline;
+  background-color: ;
+  padding: ;
+  width:4rem;
+
+}
+/* use margin settings in .nav_link to move links */
+.nav_link_container {
+  margin: auto auto auto 1rem;
+  line-height: 2rem;
+
+}
+.nav_logo {
+  width: 100%;
+  height:auto;
+}
+.nav_link {
+  color: white;
+  margin: 1rem;
+}
+.nav_link:hover {
+  color: lime;
+}
+
+.nav_search {
+  background-color:white;
+  color: black;
+  padding: ;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  outline: none;
+  margin: auto auto 0.25rem auto;
+
+}

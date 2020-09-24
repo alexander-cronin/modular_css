@@ -1,22 +1,13 @@
 /*==##################################################################==*/
 /* A */
-a:link {
-  color: red;
-  text-decoration: underline;
-  cursor: pointer;
-  padding: 0.25rem;
+a{
+
 }
-a:visited {
-  color: blue;
-  text-decoration: underline;
-  cursor: pointer;
+a:active {
+  
 }
-a:link:active	{
-  color: green;
-  cursor: pointer;
-}
-a:visited:active	{
-  color: green;
+a:hover {
+
 }
 abbr {
   color: black;
@@ -372,29 +363,7 @@ meter {
 }
 /*==##################################################################==*/
 /* N */
-nav	{
-  position: fixed;
-  top:0;
-  left:0;
-  display: block;
-  padding: 1.25rem;
-  background-color: var(--blacktransparent8);
-  width: 100%;
-  height: auto;
-  z-index: 1000;
-
-
-}
-nav a{
-  margin:1rem;
-  color: var(--yellow);
-  background-color: red;
-}
-nav a:visited {
-  margin:1rem;
-  color: var(--yellow);
-  background-color: red;
-}
+/* nav tags moved to "modular_css/modules/nav.css" */
 /*==##################################################################==*/
 /* O */
 object:focus {
