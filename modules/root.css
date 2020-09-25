@@ -200,4 +200,29 @@
 
   --box_shadow_1: 0rem 0.1rem 1rem 0.1rem var(--blacktransparent3);
 
+
+  --nav_color: var(--white);
+  --nav_background_color: var(--blacktransparent9);
+
+
+  --fixed_top_nav_color: var(--green);
+  --fixed_top_nav_background_color: var(--blacktransparent3);
+
+
+  --nav_logo_container_background_color: var(--orange);
+
+  --nav_link_color: var(--blue);
+
+
+  --nav_link_hover_color: var(--lime);
+  --nav_link_hover_background_color: var(--black);
+
+
+  --nav_search_color: var(--lime);
+  --nav_search_background_color: var(--blacktransparent1);
+
+
+  --nav_search_button_color: var(--nav_link_color);
+  --nav_search_button_background_color: var(--blacktransparent1);
+
 }
